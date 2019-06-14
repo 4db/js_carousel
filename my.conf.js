@@ -15,6 +15,7 @@ config.set({
 
   // list of files / patterns to load in the browser
   files: [
+    'dist/carousel.css',
     'dist/carousel.html',
     'dist/carousel.js',
     'tests/*.js'
