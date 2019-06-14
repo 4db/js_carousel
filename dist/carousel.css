@@ -62,6 +62,9 @@
   width: 90%;
   height: 90%;
   transition: all 1.3s;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .selected-content {
