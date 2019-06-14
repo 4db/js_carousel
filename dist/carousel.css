@@ -1,0 +1,74 @@
+.container {
+  position: relative;
+  width: 80%;
+  height: 500px;
+  margin: 2em auto;
+  align-items: center;
+}
+
+.carousel-component {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.arrow-left {
+  position: absolute;
+  cursor: pointer;
+  left: 1%;
+  top: 48%;
+}
+
+.arrow-right {
+  position: absolute;
+  cursor: pointer;
+  right: 1%;
+  top: 48%;
+}
+
+.circles, .circles-filled {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: 45%;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.circles-filled {
+  visibility: hidden;
+}
+
+.selected {
+  visibility: visible;
+}
+
+.display-content {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background: #dfd;
+  font-size: 2em;
+  transform: translateX(150%);
+  opacity: 0;
+  width: 90%;
+  height: 90%;
+  transition: all 1.3s;
+}
+
+.selected-content {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.icon {
+  margin: 1em;
+}
