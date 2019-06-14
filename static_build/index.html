@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Carousel Component</title>
+<link rel="stylesheet" href="../dist/carousel.css">
+<style type="text/css">
+<meta charset=iso-8859-1>
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+</style>
+</head>
+<body>
+  <div class="container"> 
+    <div class="carousel-component">
+      <div class="arrow-left">
+        <
+      </div>
+      <div class="arrow-right">
+        >
+      </div>
+      <div class="circles">
+        <span class="circle-empty">○</span>
+        <span class="circle-empty">○</span>
+        <span class="circle-empty">○</span>
+        <span class="circle-empty">○</span>
+      </div>
+      <div class="circles-filled">
+        <span class="circle selected">●</span>
+        <span class="circle">○</span>
+        <span class="circle">○</span>
+        <span class="circle">○</span>
+      </div>
+    </div> 
+  </div>
+<script src="../dist/carousel.js"></script>
+<script>
+  const IMGS = [
+    'cat_1.jpg',
+    'cat_2.jpg',
+    'cat_3.jpg',
+    'cat_4.jpg',
+  ];
+  new CarouselComponent(IMGS);
+</script>
+</body>
+</html>
