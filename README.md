@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/4db/js_carousel.svg?branch=master)](https://travis-ci.org/4db/js_carousel)
+
 # js_carousel
 
 Live [demo](https://4db.github.io/js_carousel/static_build/)
